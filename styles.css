@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebd5; /* Нежный персиковый цвет */
+    color: #343a40;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f59d7a;
+    color: #ffebd5;
+    padding: 30px; /* Увеличиваем отступы для более простора */
+}
+
+.avatar {
+    margin-right: 200px;
+}
+
+.avatar img {
+    width: 500px; /* Увеличиваем размер аватарки */
+    height: 350px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 35px; /* Увеличиваем размер заголовка */
+}
+
+main {
+    padding: 100px; /* Увеличиваем отступы внутри основной области */
+}
+
+.info {
+    background-color: #f59d7a;
+    padding: 40px; /* Увеличиваем внутренние отступы для секции */
+    border-radius: 10px; /* Закругляем углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Увеличиваем тень для глубины */
+    margin-bottom: 30px; /* Добавляем отступ снизу */
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px; /* Увеличиваем размер заголовка секции */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px 0; /* Увеличиваем отступы между элементами списка */
+}
+
+a {
+    text-decoration: none;
+    color: #ffebd5; /* Цвет ссылок */
+    transition: color 0.9s; /* Эффект перехода для смены цвета */
+}
+
+a:hover {
+    color: #0056b3; /* Темнее при наведении */
+}
+
+footer {
+    background-color: #f59d7a; /* Цвет заднего фона футера */
+    color: white;
+    text-align: center;
+    padding: 10px; /* Увеличиваем отступы для футера */
+    font-size: 50px; /* Увеличиваем размер шрифта футера */
+    cursor: pointer; /* Указываем, что на футер можно нажать */
+    box-shadow: 0 -2px 10px rgba(0, 10, 5, 0.1); /* Тень сверху */
+    margin-top: 30px; /* Добавляем отступ сверху */
+}
+
+
